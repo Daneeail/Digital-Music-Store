@@ -107,7 +107,7 @@ CREATE TABLE `client` (
   `client_name` varchar(25) NOT NULL,
   `client_username` varchar(25) NOT NULL,
   `client_email` varchar(25) NOT NULL,
-  `client_pw` varchar(25) NOT NULL
+  `client_pw` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
