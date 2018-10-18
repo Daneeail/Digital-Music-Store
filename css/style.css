@@ -1,0 +1,48 @@
+a {
+    color: black;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: royalblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#header {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+#italics {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-text {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
