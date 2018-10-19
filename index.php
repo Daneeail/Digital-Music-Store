@@ -50,8 +50,8 @@
 				while ($row = $result->fetch_assoc()) {
 					echo "<div class='mx-auto'>" .
 						 '<img src="data:image/jpeg;base64,' . base64_encode($row["album_image"]) . '" style="height: 100px; width: 100px;"/>' . 
-						 "<p><a href='artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></p>" .
-						 "<p><a href='albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></p>" .
+						 "<p><a href='musicInfo/artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></p>" .
+						 "<p><a href='musicInfo/albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></p>" .
 						 "</div>";
 				}
 			}
@@ -71,9 +71,9 @@
 
 			if ($result->num_rows > 0) {
 				while ($row = $result->fetch_assoc()) {
-					echo "<tr><td><a href='songInfo.php?" . $row["song_ID"] . "'>" . $row["song_name"] . "</a></td>" . 
-						 "<td><a href='artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></td>" . 
-						 "<td><a href='albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></td>" .
+					echo "<tr><td><a href='musicInfo/songInfo.php?" . $row["song_ID"] . "'>" . $row["song_name"] . "</a></td>" . 
+						 "<td><a href='musicInfo/artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></td>" . 
+						 "<td><a href='musicInfo/albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></td>" .
 						 "<td>" . '$' . $row["song_price"] . "</td></tr>";
 				}
 			}
@@ -94,8 +94,8 @@
 				while ($row = $result->fetch_assoc()) {
 					echo "<div class='mx-auto'>" .
 						 '<img src="data:image/jpeg;base64,' . base64_encode($row["album_image"]) . '" style="height: 100px; width: 100px;"/>' . 
-						 "<p><a href='artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></p>" .
-						 "<p><a href='albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></p>" .
+						 "<p><a href='musicInfo/artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></p>" .
+						 "<p><a href='musicInfo/albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></p>" .
 						 "</div>";
 				}
 			}
@@ -115,9 +115,9 @@
 
 			if ($result->num_rows > 0) {
 				while ($row = $result->fetch_assoc()) {
-					echo "<tr><td><a href='songInfo.php?" . $row["song_ID"] . "'>" . $row["song_name"] . "</a></td>" . 
-						 "<td><a href='artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></td>" . 
-						 "<td><a href='albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></td>" .
+					echo "<tr><td><a href='musicInfo/songInfo.php?" . $row["song_ID"] . "'>" . $row["song_name"] . "</a></td>" . 
+						 "<td><a href='musicInfo/artistInfo.php?" . $row["artist_ID"] . "'>" . $row["artist_name"] . "</a></td>" . 
+						 "<td><a href='musicInfo/albumInfo.php?" . $row["album_ID"] . "'>" . $row["album_name"] . "</a></td>" .
 						 "</tr>";
 				}
 			}
