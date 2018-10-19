@@ -20,4 +20,4 @@ The following languages/frameworks were used in the development of this applicat
 HTML, CSS, Bootstrap JavaScript, JQuery, PHP, SQL, AJAX
 
 Screenshots
-![Alt text](/Digital-Music-Store/screenshots/screenshot1.png?raw=true "Testing")
+![Alt text](./screenshots/screenshot1.png?raw=true "Testing")
