@@ -53,6 +53,7 @@ session_start();
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
+					echo "<h2>Cart</h2>;
 					echo "<table class='table table-hover' style='width: 100%'><tr><th>Song</th><th>Artist</th><th>Album</th><th>Price</th><th></th></tr>";
 
 					while ($row = $result->fetch_assoc()) {
