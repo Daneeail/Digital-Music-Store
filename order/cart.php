@@ -49,7 +49,7 @@ session_start();
 					INNER JOIN album ON song.album_ID = album.album_ID
 					INNER JOIN artist ON album.artist_ID = artist.artist_ID
 					WHERE transaction.client_ID = '" . $_SESSION["id"] . "' AND transaction.transaction_status = '0'" .
-					" ORDER BY song.song_name";
+					" ORDER BY album.album_name";
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
