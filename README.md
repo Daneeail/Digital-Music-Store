@@ -20,4 +20,14 @@ The following languages/frameworks were used in the development of this applicat
 HTML, CSS, Bootstrap JavaScript, JQuery, PHP, SQL, AJAX
 
 Screenshots
-![Alt text](./screenshots/screenshot1.png?raw=true "Testing")
+![Alt text](./screenshots/screenshot1.png?raw=true "Song List")
+
+![Alt text](./screenshots/screenshot2.png?raw=true "Genre List")
+
+![Alt text](./screenshots/screenshot5.png?raw=true "Song Info")
+
+![Alt text](./screenshots/screenshot6.png?raw=true "Artist Info")
+
+![Alt text](./screenshots/screenshot7.png?raw=true "Cart")
+
+![Alt text](./screenshots/screenshot8.png?raw=true "Order History")
