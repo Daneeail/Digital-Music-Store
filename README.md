@@ -19,7 +19,7 @@ In addition, the folowing features were added to enhance functionality:
 The following languages/frameworks were used in the development of this application:
 HTML, CSS, Bootstrap JavaScript, JQuery, PHP, SQL, AJAX
 
-Screenshots
+## Screenshots
 ![Alt text](./screenshots/screenshot1.png?raw=true "Song List")
 
 ![Alt text](./screenshots/screenshot2.png?raw=true "Genre List")
